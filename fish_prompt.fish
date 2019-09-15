@@ -1,8 +1,8 @@
 set -g CMD_DURATION 0
 
-function flash_fst; set_color -o fa0; end
-function flash_snd; set_color -o C00; end
-function flash_trd; set_color -o 666; end
+function flash_fst; set_color -o ff0; end
+function flash_snd; set_color -o f00; end
+function flash_trd; set_color -o aaa; end
 function flash_dim; set_color -o 333; end
 function flash_off; set_color normal; end
 function bc; command bc -l $argv; end
